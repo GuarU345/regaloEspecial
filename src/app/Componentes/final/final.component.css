@@ -1,0 +1,21 @@
+.fondo{
+    background-color: rgb(0, 0, 0);
+    height: 602px;
+    font-family: 'Courier New';
+    text-align: justify;
+    font-size: 15.5px;
+    padding-left: 250px;
+    padding-top: 20px;
+  }
+  .card{
+    color: rgb(0, 0, 0);
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  
+  

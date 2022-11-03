@@ -1,0 +1,17 @@
+.fondo{
+    background-color: aqua;
+    height: 602px;
+  }
+  .contenedor{
+    display: flex;
+  }
+  .txt{
+    font-family: 'Courier New';
+    padding-left: 90px;
+    padding-top: 200px;
+    font-size: 50px;
+  }
+  .img{
+    width: 602px;
+  }
+  

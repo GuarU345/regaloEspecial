@@ -1,0 +1,94 @@
+.fondo{
+    background-color: rgb(0, 0, 0);
+    height: 602px;
+    padding-left: 100px;
+  }
+  .contenedor{
+    width: 1000px;
+    padding-top: 20px;
+    display: flex;
+  }
+  .contenedor2{
+    width: 1100px;
+    padding-top: 70px;
+    display: flex;
+  }
+  .card{
+    background-color: aqua;
+    width: 200px;
+    height: 133px;
+    margin-left: 70px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .card2{
+    background-color: yellow;
+    height: 70px;
+    margin-top: 100px;
+  }
+  .card3{
+    background-color: crimson;
+    height: 100px;
+  }
+  .card4{
+    background-color: rgb(0, 255, 13);
+    width: 200px;
+    height: 150px;
+  }
+  .card5{
+    background-color: darkorange;
+    border-radius: 100px;
+    width: 400px;
+    height: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+  }
+  .card6{
+    background-color: darkviolet;
+    border-radius: 50px;
+    margin-top: 60px;
+    width: 600px;
+    padding-top: 30px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  .txt{
+    font-family: 'Courier New';
+    text-align: center;
+  }
+  .txt1
+  {
+    font-family: 'Courier New';
+  }
+  .txt2{
+    font-family: 'Courier New';
+    text-align: center;
+    margin-top: 10px;
+  }
+  .txt3{
+    font-family: 'Courier New';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .txt4{
+    font-family: 'Courier New';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+  .txt5{
+    font-family: 'Courier New';
+    color: white;
+    text-align: center;
+  }
+  
+  

@@ -1,0 +1,19 @@
+.fondo{
+    background-color: rgb(245, 45, 168);
+    height: 602px;
+  }
+  .contenedor2{
+    display: flex;
+    text-align: center;
+  }
+  .img{
+    width: 500px;
+    height: 400px;
+    margin-left: 130px;
+  }
+  .txt{
+    font-family: 'Courier New';
+    text-align: center;
+    color: white;
+  }
+  

@@ -1,0 +1,26 @@
+.fondo{
+    background-color: black;
+    overflow: hidden;
+    height: 602px;
+  }
+  .img{
+    padding-top: 40px;
+    margin-left: 200px;
+    width: 300px;
+    height: 500px;
+  }
+  .acomodar{
+    margin-left: 20px;
+    margin-top: 450px;
+  }
+  .contenedor{
+    display: flex;
+  }
+  .txt{
+    color: white;
+    padding-top: 22px;
+    font-family: 'Courier New';
+    font-size: 50px;
+  }
+  
+  

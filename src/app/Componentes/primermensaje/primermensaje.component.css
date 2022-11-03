@@ -1,0 +1,32 @@
+.bg-info{
+    height: 602px;
+  }
+  .contenedor{
+    display: flex;
+    padding-left: 300px;
+    padding-top: 30px;
+  }
+  .img{
+    width: 250px;
+    height: 500px;
+  }
+  .txt{
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: 'Courier New';
+  }
+  .txt2{
+    font-size: 40px;
+    padding-left: 30px;
+    font-family: 'Courier New';
+  }
+  .txt3{
+    font-size: 40px;
+    padding-left: 307px;
+    padding-top: 179px;
+    font-family: 'Courier New';
+    color: white;
+  }
+  
+  

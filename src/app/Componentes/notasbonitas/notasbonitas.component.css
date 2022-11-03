@@ -1,0 +1,55 @@
+.fondo{
+    background-color: black;
+    height: 100%;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    font-size: 80px;
+}
+.img{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+.imgcent{
+    width: 30%;
+    border-radius: 30px;
+    margin-left: 500px;
+}
+.txtnota{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.imggrande{
+    width: 40%;
+    margin-left: 400px;
+    border-radius: 50px;
+}
+.img3{
+  width: 50%;
+  border-radius: 300px;
+  margin-left: 100px;
+}
+.img4{
+    width: 50%;
+    border-radius: 300px;
+    margin-left: 100px;
+}
+.img5{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.img6{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 700px;
+}
+.imgtq{
+    margin-left: 300px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}

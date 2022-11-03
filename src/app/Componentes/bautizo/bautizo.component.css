@@ -1,0 +1,19 @@
+.fondo{
+    background-color: aqua;
+    height: 602px;
+  }
+  .contenedor{
+    display: flex;
+  }
+  .txt{
+    font-family: 'Courier';
+  }
+  .img{
+    width: 750px;
+    margin-left: 300px;
+  }
+  .txt2{
+    font-family: 'Courier';
+    margin-left: 700px;
+  }
+  

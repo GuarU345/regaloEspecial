@@ -1,0 +1,25 @@
+.fondo{
+    background-color: rgb(49, 12, 83);
+    height: 617px;
+    position: fixed;
+  }
+  .txt{
+    font-family:'Courier New';
+    font-size: 30px;
+    margin-left: 240px;
+    color: red;
+  }
+  .txt1{
+    font-family:'Courier New';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 230px;
+    margin-left: 100px;
+  }
+  .img{
+    width: 400px;
+    height: 500px;
+    margin-top: 40px;
+  }
+  

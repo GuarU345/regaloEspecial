@@ -1,0 +1,15 @@
+<app-dashboard></app-dashboard>
+<div class="fondo">
+    <h1 class="title">BIENVENIDA AL QUIZ</h1>
+    <h3 class="inicio">jugaras un ahorcado en el cual tendras que adivinar la frase oculta</h3>
+    <div class="contenedor">
+        <p class="acomodar">_ _ _ _</p><p class="acomodar2">_ _</p><p class="acomodar2">_ _ _ _</p>
+    </div>
+    <div style="display: flex;font-size: 100px;">
+        <p class="acomodar">_ _</p><p class="acomodar2">_ _</p><p class="acomodar2">_ _ _ _</p>
+    </div>
+    <div [formGroup]="FormLetra" class="form">
+        <input placeholder="elige la letra" class="form-control ajustar" formControlName="letraelegida" type="text">
+    </div>
+    <button class="btn btn-success" (click)="comprobar()">Buscar</button>
+</div>

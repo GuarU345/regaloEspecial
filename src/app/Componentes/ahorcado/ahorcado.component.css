@@ -1,0 +1,27 @@
+.fondo{
+    background-color: rgb(34, 199, 34);
+    height: 100vh;
+}
+.title{
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+}
+.inicio{
+    color: white;
+    text-align: center;
+}
+.contenedor{
+    font-size: 100px;
+    display: flex;
+}
+.acomodar{
+    margin-left: 300px;
+}
+.acomodar2{
+    margin-left: 50px;
+}
+.ajustar{
+    width: 150px;
+    margin-left: 500px;
+}

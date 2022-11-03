@@ -1,0 +1,50 @@
+.fondo{
+    background-color: darkblue;
+    height: 602px;
+  }
+  .tx{
+    font-family: 'Courier New';
+    color: white;
+    margin-left: 250px;
+  }
+  .txt{
+    font-family: 'Courier New';
+    color: white;
+    margin-left: 300px;
+  }
+  .txt1{
+    font-size: 40px;
+    font-family: 'Courier New';
+    color: white;
+    margin-left: 200px;
+  }
+  .txt2{
+    font-size: 40px;
+    font-family: 'Courier New';
+    color: white;
+    margin-left: 50px;
+  }
+  .txt4{
+    font-size: 40px;
+    font-family: 'Courier New';
+    color: white;
+    margin-left: 70px;
+  }
+  .form-select{
+    width: 400px;
+    margin-left: 470px;
+  }
+  .btn1{
+    margin-left: 250px;
+  }
+  .btn2{
+    margin-left: 170px;
+  }
+  .contenedor{
+    display: flex;
+  }
+  .contenedorabajo{
+    flex-wrap: wrap;
+  }
+  
+  

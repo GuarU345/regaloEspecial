@@ -1,0 +1,65 @@
+.fondo{
+    background-color: crimson;
+    height: auto;
+}
+.txt{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+.txtmio{
+    margin-left: 20px;
+    color: white;
+}
+.fondo2{
+    background-color: blueviolet;
+    margin-left: 450px;
+    width: 500px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.video{
+   width: 300px;
+   height: 300px;
+   margin-left: 100px;
+}
+.fondo3{
+    background-color: blue;
+    width: 1500px;
+    height: 300px;
+    border-radius: 10px;
+}
+.txtbb{
+    color: white;
+    text-align: center;
+}
+.txtbonito{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.videobb{
+    width: 400px;
+    height: 400px;
+}
+.fondo5{
+    background-color: violet;
+    padding-left: 80px;
+}
+.titlefoot{
+    color: white;
+    font-family: 'Courier New';
+    text-align: center;
+}
+.videobbemoc{
+    width: 550px;
+    height: 550px;
+    margin-left: 30%;
+}
+.final{
+    color: white;
+    font-family: 'Courier New';
+    text-align: center;
+}
