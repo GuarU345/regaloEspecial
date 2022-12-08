@@ -1,50 +1,58 @@
-.fondo{
-    background-color: darkblue;
-    height: 602px;
+.fondo {
+  background-color: darkblue;
+  height: 602px;
+}
+.content {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+.container-txt {
+  display: flex;
+  flex-direction: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+.container-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.txt {
+  font-family: "Courier New";
+  color: white;
+  text-align: center;
+}
+.txt-can {
+  font-family: "Courier New";
+  text-align: center;
+  color: white;
+}
+.btn-dark {
+  width: 10rem;
+  height: 3rem;
+}
+.final-txt{
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:768px){
+  .container-txt{
+    flex-direction: column;
   }
-  .tx{
-    font-family: 'Courier New';
-    color: white;
-    margin-left: 250px;
+  .fondo{
+    height: 100%;
   }
   .txt{
-    font-family: 'Courier New';
-    color: white;
-    margin-left: 300px;
+    font-size: 1.5rem;
+    text-align: center;
   }
-  .txt1{
-    font-size: 40px;
-    font-family: 'Courier New';
-    color: white;
-    margin-left: 200px;
-  }
-  .txt2{
-    font-size: 40px;
-    font-family: 'Courier New';
-    color: white;
-    margin-left: 50px;
-  }
-  .txt4{
-    font-size: 40px;
-    font-family: 'Courier New';
-    color: white;
-    margin-left: 70px;
-  }
-  .form-select{
-    width: 400px;
-    margin-left: 470px;
-  }
-  .btn1{
-    margin-left: 250px;
-  }
-  .btn2{
-    margin-left: 170px;
-  }
-  .contenedor{
-    display: flex;
-  }
-  .contenedorabajo{
-    flex-wrap: wrap;
-  }
-  
-  
+
+}

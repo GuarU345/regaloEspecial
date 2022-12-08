@@ -51,6 +51,12 @@
   .fondo{
     height: 100vh;
   }
+  .contenedor{
+    position: relative;
+  }
+  ul,p{
+    font-size: 4rem;
+  }
 }
   
   

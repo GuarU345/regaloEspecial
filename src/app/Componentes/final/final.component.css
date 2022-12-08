@@ -4,8 +4,12 @@
     font-family: 'Courier New';
     text-align: justify;
     font-size: 15.5px;
-    padding-left: 250px;
-    padding-top: 20px;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
   }
   .card{
     color: rgb(0, 0, 0);
@@ -16,6 +20,15 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+  }
+
+  @media (max-width:768px){
+    .fondo{
+      height: 100%;
+    }
+    .card{
+      height: 100%;
+    }
   }
   
   
