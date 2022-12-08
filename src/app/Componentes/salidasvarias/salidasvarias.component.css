@@ -2,30 +2,48 @@
     background-color: rgb(250, 246, 2);
     height: 602px;
   }
-  .contenedor{
+  .content{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 2rem;
   }
   .img{
-    width: 30%;
-    height: 200px;
-    margin-top: 20px;
-    margin-left: 100px;
-  }
-  .img2{
     width: 29%;
-    margin-left: 330px;
-    margin-top: 20px;
   }
-  .img3{
-    width: 29%;
-    margin-left: 475px;
-    margin-top: 20px;
-  }
+  
   .txt{
     font-family: 'Courier New';
     font-size: 40px;
-    margin-top: 30px;
-    margin-left: 200px;
+    
   }
   
-  
+@media (max-width:768px){
+  .content{
+
+  }
+
+  .img{
+    width: 15rem;
+  }
+
+  .container-img{
+    flex-direction: column;
+  }
+
+  .fondo{
+    height: 100vh;
+  }
+
+  .txt{
+    text-align: center;
+  }
+}

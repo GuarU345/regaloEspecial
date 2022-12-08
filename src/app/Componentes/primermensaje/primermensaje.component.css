@@ -1,32 +1,51 @@
 .bg-info{
     height: 602px;
   }
-  .contenedor{
+  .content{
+    gap: 1rem;
     display: flex;
-    padding-left: 300px;
-    padding-top: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  .container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-txt{
+    display: flex;
+    flex-direction: column;
   }
   .img{
-    width: 250px;
-    height: 500px;
+    width: 15rem;
   }
   .txt{
-    padding-left: 30px;
-    padding-top: 60px;
-    font-size: 40px;
+    font-size: 2rem;
     font-family: 'Courier New';
   }
-  .txt2{
-    font-size: 40px;
-    padding-left: 30px;
-    font-family: 'Courier New';
+
+  @media (max-width:768px){
+    .bg-info{
+      height:100vh;
+    }
+    .content{
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .container-txt{
+      padding: 0rem 2rem;
+    }
+    .img{
+      width: 11rem;
+    }
+    .img:hover{
+      width: 15rem;
+    }
+    .txt{
+      font-size: 1.5rem;
+      text-align: center;
+    }
   }
-  .txt3{
-    font-size: 40px;
-    padding-left: 307px;
-    padding-top: 179px;
-    font-family: 'Courier New';
-    color: white;
-  }
-  
   

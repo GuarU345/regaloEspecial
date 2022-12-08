@@ -1,26 +1,56 @@
 .fondo{
     background-color: black;
-    overflow: hidden;
     height: 602px;
   }
-  .img{
-    padding-top: 40px;
-    margin-left: 200px;
-    width: 300px;
-    height: 500px;
-  }
-  .acomodar{
-    margin-left: 20px;
-    margin-top: 450px;
-  }
-  .contenedor{
+  .all{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-img{
+    padding: 1rem;
+    flex: 1;
+  }
+  .img{
+    width: 15rem;
+  }
+  .container-btn{
+    padding: 0.5rem;
+  }
+  .content2{
+    display: flex;
+    flex-direction: column;
+  }
+  
   .txt{
     color: white;
-    padding-top: 22px;
     font-family: 'Courier New';
-    font-size: 50px;
+    font-size: 3rem;
   }
+
+  @media (max-width:768px){
+    .fondo{
+      height: 100vh;
+    }
+    .all{
+      flex-direction: column;
+    }
+    .content2{
+      min-width: none;
+      align-items: center;
+    }
+
+    .txt{
+      font-size: 1.5rem;
+    }
+  }
+
   
   

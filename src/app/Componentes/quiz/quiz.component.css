@@ -1,7 +1,13 @@
 .fondo{
     background-color: aqua;
-    width: 100vw;
-    height: 100vh;
+    height: 602px;
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:1rem;
 }
 .title{
     color: white;
@@ -11,20 +17,31 @@
 }
 .fondo1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
     height: 500px;
 }
 .horas {
     width: 40%;
     height: 40%;
-    margin-top: 100px;
-    margin-left: 130px;
     font-size: 100px;
 }
 
 .minutos {
     width: 40%;
     height: 40%;
-    margin-left: 20px;
-    margin-top: 100px;
     font-size: 100px;
+}
+
+@media (max-width:768px){
+    .fondo{
+        height: 100vh;
+    }
+    .content{
+       flex-wrap: wrap;
+    }
+    .title{
+        font-size: 3rem;
+    }
 }

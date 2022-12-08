@@ -2,18 +2,43 @@
     background-color: aqua;
     height: 602px;
   }
-  .contenedor{
+  .content{
     display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-txt1{
+    align-items: flex-start;
+  }
+  .container-txt2{
+    display: flex;
+    justify-content: flex-end;
   }
   .txt{
     font-family: 'Courier';
   }
   .img{
     width: 750px;
-    margin-left: 300px;
+    transition: 0.5s;
+  }
+  .img:hover{
+    cursor: pointer;
+    transform: translateY(-30px);
+    transition: 0.5s;
   }
   .txt2{
     font-family: 'Courier';
-    margin-left: 700px;
+  }
+
+  @media (max-width:768px){
+    .fondo{
+      height: 100vh;
+      text-align: center;
+    }
   }
   

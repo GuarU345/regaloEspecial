@@ -2,18 +2,40 @@
     background-color: rgb(245, 45, 168);
     height: 602px;
   }
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
   .contenedor2{
     display: flex;
     text-align: center;
+    justify-content: center;
+    gap: 2rem;
   }
   .img{
     width: 500px;
     height: 400px;
-    margin-left: 130px;
   }
   .txt{
     font-family: 'Courier New';
     text-align: center;
     color: white;
   }
-  
+
+@media (max-width:768px){
+  .fondo{
+    height: 100%;
+  } 
+  .container-txt{
+    padding: 0 2rem;
+  }
+  .txt{
+    font-size: 1.5rem;
+  }
+  .contenedor2{
+    flex-direction: column;
+  }
+  .img{
+    width: 20rem;
+  }
+}
