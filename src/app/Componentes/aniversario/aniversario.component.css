@@ -1,6 +1,11 @@
 .fondo{
     background-color: crimson;
-    height: auto;
+    height: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .txt{
     font-size: 30px;
@@ -10,26 +15,32 @@
     text-align: center;
 }
 .txtmio{
-    margin-left: 20px;
     color: white;
 }
 .fondo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: blueviolet;
-    margin-left: 450px;
     width: 500px;
     border-radius: 20px;
-    padding-left: 10px;
+    padding: 1rem 0rem;
 }
 .video{
    width: 300px;
    height: 300px;
-   margin-left: 100px;
 }
 .fondo3{
     background-color: blue;
-    width: 1500px;
-    height: 300px;
+    height: 400px;
     border-radius: 10px;
+}
+.container-video{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
 }
 .txtbb{
     color: white;
@@ -41,10 +52,11 @@
     text-align: center;
 }
 .videobb{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
 }
 .fondo5{
+    height: 400px;
     background-color: violet;
     padding-left: 80px;
 }
@@ -53,10 +65,14 @@
     font-family: 'Courier New';
     text-align: center;
 }
+.last-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .videobbemoc{
     width: 550px;
     height: 550px;
-    margin-left: 30%;
 }
 .final{
     color: white;
