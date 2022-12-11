@@ -8,15 +8,20 @@
     font-family: Verdana;
     font-size: 80px;
 }
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0rem 2rem;
+}
 .img{
-    width: 50%;
+    width: 30%;
     border-radius: 20px;
-    margin-left: 200px;
 }
 .imgcent{
     width: 30%;
     border-radius: 30px;
-    margin-left: 500px;
 }
 .txtnota{
     color: white;
@@ -25,31 +30,48 @@
 }
 .imggrande{
     width: 40%;
-    margin-left: 400px;
     border-radius: 50px;
 }
 .img3{
-  width: 50%;
+  width: 30%;
   border-radius: 300px;
-  margin-left: 100px;
 }
 .img4{
-    width: 50%;
+    width: 30%;
     border-radius: 300px;
-    margin-left: 100px;
+}
+.container-img-left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2rem;
 }
 .img5{
     width: 40%;
     border-radius: 10px;
-    margin-left: 100px;
+}
+.container-img-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
 }
 .img6{
     width: 40%;
     border-radius: 10px;
-    margin-left: 700px;
 }
 .imgtq{
-    margin-left: 300px;
     border-radius: 100px;
-    margin-bottom: 20px;
+}
+
+
+@media (max-width:768px){
+    .title{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .imgtq{
+        border-radius: 20px;
+        width: 50%;
+    }
 }
