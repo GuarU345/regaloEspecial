@@ -27,9 +27,7 @@
     transition: 0.5s;
   }
   .img:hover{
-    cursor: pointer;
-    transform: translateY(-30px);
-    transition: 0.5s;
+    
   }
   .txt2{
     font-family: 'Courier';
